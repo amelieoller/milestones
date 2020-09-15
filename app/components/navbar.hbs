@@ -1,0 +1,31 @@
+<nav id="header" class="bg-white fixed w-full z-10 top-0 shadow">
+  <div
+    class="w-full container mx-auto flex flex-wrap items-center mt-0 pt-3 pb-3 md:pb-0"
+  >
+    <div
+      class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white z-20"
+      id="nav-content"
+    >
+      <ul class="list-reset lg:flex flex-1 items-center px-4 md:px-0">
+        <li class="mr-6 my-2 md:my-0">
+          <LinkTo
+            @route="home"
+            class="block py-1 md:py-3 pl-1 align-middle text-orange-600 no-underline hover:text-gray-900 border-b-2 border-orange-600 hover:border-orange-600"
+          >
+            <i class="fas fa-home fa-fw mr-3 text-orange-600"></i
+            ><span class="pb-1 md:pb-0 text-sm menu-home">Home</span>
+          </LinkTo>
+        </li>
+        <li class="mr-6 my-2 md:my-0">
+          <LinkTo
+            @route="about"
+            class="block py-1 md:py-3 pl-1 align-middle text-gray-500 no-underline hover:text-gray-900 border-b-2 border-white hover:border-pink-500"
+          >
+            <i class="fas fa-info-circle fa-fw mr-3"></i
+            ><span class="pb-1 md:pb-0 text-sm menu-about">About</span>
+          </LinkTo>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
