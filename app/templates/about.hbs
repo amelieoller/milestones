@@ -1,18 +1,10 @@
+<Navbar />
+
 <Container>
   {{!-- Title --}}
   <div class="font-sans">
-    <span class="text-base md:text-sm text-teal-500 font-bold">&lt;</span>
-    <LinkTo
-      @route="home"
-      class="text-base md:text-sm text-teal-500 font-bold no-underline hover:underline"
-      >Home</LinkTo
-    >
-
-    <h1
-      class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl"
-    >
-      About Milestones
-    </h1>
+    <Breadcrumb>Home</Breadcrumb>
+    <Title>About Milestones</Title>
   </div>
   {{!--/ Title --}}
 
